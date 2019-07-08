@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Web Button</title>
+    </head>
+    <body>
+        <p id="p1">There are 5 apples</p>
+        <button id="button">Click Me</button>
+        <script>
+            var button = document.getElementById("button")
+            button.onclick = function(){
+                document.getElementById("p1").innerHTML = "There are no apples";
+            }
+        </script>
+    </body>
+</html>
